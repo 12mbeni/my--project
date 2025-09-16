@@ -1,0 +1,32 @@
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.col{
+    width: 350px;
+    height: 400px;
+    background: rgb(153, 153, 153);
+    margin: 0 15px;
+    border-radius: 15px;
+}
+.col img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 350px;
+    height: 250px;
+}
+.col i{
+    color: rgb(255, 255, 0);
+    margin-left: 10px;
+}
+.col h2{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.col p{
+    font-size: 20px;
+    margin-left: 10px;
+}
